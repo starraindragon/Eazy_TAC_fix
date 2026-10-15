@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="AGPL-3.0-or-later"
+issueTrackerURL=""
+
+[[mods]]
+modId="eazy_tac_fix"
+version="1.0.0"
+displayName="Eazy TAC Fix"
+description='''修复数据重组器批量制作时的罢工问题：AE 送料超过单槽 512 上限后会把多余材料分堆到多个输入槽（如 a,b,a 排布），原版会因槽位未被完全消耗而停摆。本模组放宽该检查，多余材料留在槽内不再阻塞机器，可正常批量制作数千个产物。
+
+由豆包提供代码支持'''
+authors="xing_yu_dragon"
+logoFile="eazy_tac_ico32.png"
+
+[[mixins]]
+config="eazy_tac_fix.mixins.json"
+
+[[dependencies.eazy_tac_fix]]
+    modId="data_energistics"
+    type="required"
+    versionRange="[3.3.5,4.0.0)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.eazy_tac_fix]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.248,)"
+
+[[dependencies.eazy_tac_fix]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
