@@ -1,13 +1,23 @@
 # Eazy TAC Fix
 
+**中文**：一个 NeoForge 模组，修复 [DataEnergistics](https://github.com/fish1145/DataEnergistics)「数据重组器（DataRipperReassembler）」在 AE 批量制作时因材料分堆而罢工的问题。
 
-- **Minecraft**：1.21.1
-- **Mod Loader**：NeoForge 21.1.248 或更高
-- **Mod ID**：`eazy_tac_fix`
+**English**: A NeoForge mod that fixes the DataEnergistics "DataRipperReassembler" machine from halting when AE batch-crafting spills materials into extra slots.
+
+- **中文**：Minecraft `1.21.1` · NeoForge `21.1.248+` · Mod ID `eazy_tac_fix`
+- **English**: Minecraft `1.21.1` · NeoForge `21.1.248+` · Mod ID `eazy_tac_fix`
 
 ---
 
-## 问题
+## 整合包包内模组 / Pack-Internal Mod
+
+**中文**
+本模组是**整合包包内模组**：它作为整合包的一部分随整合包一起分发，通常**不单独提供独立下载**。使用者无需单独安装本模组，只要整合包带上了它，放入 `mods` 目录即可直接使用。若你在整合包中使用或分发本模组，请在整合包发布页注明包含此模组及其 AGPL 许可。
+
+**English**
+This mod is a **pack-internal mod**: it ships as part of a modpack and is generally **not distributed as a standalone download**. Users do not install it separately — once the pack includes it, it is used directly from the `mods` folder. If you use or redistribute this mod inside a modpack, please credit the mod and its AGPL license on the pack's release page.
+
+---
 
 ## 问题 / The Problem
 
