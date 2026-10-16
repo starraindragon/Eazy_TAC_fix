@@ -4,7 +4,9 @@
   "package": "com.xing_yu_dragon.fixdereassembler.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "DataRipperReassemblerRecipeMixin"
+    "DataRipperReassemblerRecipeMixin",
+    "DataIntegratedChargerRecipeMixin",
+    "DataChargePressRecipeMixin"
   ],
   "injectors": {
     "defaultRequire": 1
