@@ -59,12 +59,12 @@ A Mixin overrides the matching logic of `DataRipperReassemblerRecipe.findMatchin
 
 **中文**
 - [NeoForge](https://neoforged.net/) `21.1.248+`
-- [DataEnergistics](https://www.curseforge.com/minecraft/mc-mods/data-energistics) `3.3.5+`
+- [DataEnergistics](https://www.curseforge.com/minecraft/mc-mods/data-energistics) **仅兼容 `v3.3.5-1.21`**（Mixin 基于 3.3.5 的方法签名编写；若升级到 3.4.0 及以上，`findMatchingItemInputs` 参数类型已改变，会导致本模组注入失败/游戏崩溃，需先移除本模组再升级）
 - Applied Energistics 2
 
 **English**
 - [NeoForge](https://neoforged.net/) `21.1.248+`
-- [DataEnergistics](https://www.curseforge.com/minecraft/mc-mods/data-energistics) `3.3.5+`
+- [DataEnergistics](https://www.curseforge.com/minecraft/mc-mods/data-energistics) **only compatible with `v3.3.5-1.21`** (the Mixin targets the 3.3.5 method signature; upgrading to 3.4.0+ changes the `findMatchingItemInputs` parameter type, which breaks the injection / crashes the game — remove this mod before upgrading)
 - Applied Energistics 2
 
 ---
